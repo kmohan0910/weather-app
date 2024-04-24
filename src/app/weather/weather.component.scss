@@ -7,6 +7,7 @@
 }
 mat-form-field {
   width: 20%;
+  min-width: 300px;
 }
 mat-icon{
   cursor: pointer;
@@ -18,4 +19,21 @@ mat-card{
 h1{
   text-align: center;
   font-size: 2.5em;
+}
+.d-flex{
+  display: flex;
+
+  gap: 1rem;
+
+  > mat-card:nth-child(even){
+    background-color:#d53838;
+    color: white;
+  }
+  > mat-card:nth-child(odd){
+    background-color:#4e4eee;
+    color: white;
+  }
+}
+.mat-mdc-card-subtitle{
+  color: white;
 }

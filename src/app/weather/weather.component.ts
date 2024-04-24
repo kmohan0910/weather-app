@@ -9,11 +9,14 @@ import { WeatherService } from '../weather.service';
 })
 export class WeatherComponent {
 
-  weather : Weather| undefined;
+  weathers: Weather[]| undefined=[];
   constructor(private weatherService : WeatherService){
 
   }
+  ngOnInit(){
+    this.search('Bangalore')
+  }
   search(city: string){
-    this.weatherService.getWeather(city).subscribe(weather=> this.weather=weather)
+    this.weatherService.getWeather(city).subscribe(weather=>{ this.weathers?.push(weather);})
   }
 }
