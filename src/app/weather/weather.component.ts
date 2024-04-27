@@ -14,7 +14,7 @@ export class WeatherComponent {
 
   }
   ngOnInit(){
-    this.search('Bangalore')
+    this.search('New York')
   }
   search(city: string){
     this.weatherService.getWeather(city).subscribe(weather=>{ this.weathers?.push(weather);})
