@@ -1,27 +1,32 @@
-# WeatherApp
+# Weather App
+This project is a weather application built with Angular. It includes Progressive Web App (PWA) capabilities enabled using Angular, providing offline support and a native app-like experience.
+Main Goal of this application is to utilize the power of PWAs and offline service workers of angular.
+[Live Demo](https://weather-6ce0a.web.app/) 
+## Features
+- Real-Time Weather Updates: Get the latest weather information for any location.
+- Progressive Web App (PWA): Offers offline access and an app-like experience.
+- Responsive Design: Optimized for both desktop and mobile devices.
+- Angular Material: Utilizes Angular Material for a sleek and modern UI.
+- API Integration: Fetches weather data from a third-party weather API.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+![image](https://github.com/mohanbyte/weather-app/assets/41165473/6432115a-2fc8-49c1-aad3-5a2dac8d828f)
 
-## Development server
+## Installation
+Clone the repository and navigate into the project directory:
+```
+git clone https://github.com/mohanbyte/weather-app.git
+cd weather-app
+```
+### Install the required dependencies:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```
+npm install
+```
+### Development Server
+Run the development server:
 
-## Code scaffolding
+```
+ng serve
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
